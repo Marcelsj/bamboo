@@ -1,0 +1,7 @@
+services:
+
+    #
+    # Visithor Bridge
+    #
+    visitor.environment_builder:
+        class: Elcodi\Common\VisithorBridgeBundle\Visithor\EnvironmentBuilder

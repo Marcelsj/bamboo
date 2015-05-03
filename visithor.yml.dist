@@ -1,0 +1,23 @@
+defaults:
+    options:
+        verb: GET
+
+urls:
+    - [store_homepage, 200]
+    - [store_categories_nav, 200]
+    - [[store_category_products_list, {'slug': 'women-shirts', 'id': 1}], 200]
+    - [[store_category_products_list, {'slug': 'another-name', 'id': 1}], 301]
+    - [[store_product_view, {'slug': 'ibiza-lips-en', 'id': 1}], 200]
+    - [[store_product_view, {'slug': 'another-name', 'id': 1}], 301]
+    - [store_password_recover_sent, 200]
+    - [store_login, 200]
+    - [store_user_nav, 200]
+    - [store_user, 302]
+    - [store_cart_view, 200]
+    - [store_cart_nav, 200]
+    - [store_order_list, 302]
+    - [store_currency_nav, 200]
+    - [store_blog_view, 200]
+    - [[store_blog_post_view, {'slug': 'hola-mundo', 'id': 1}], 200]
+    - [store_address_list, 302]
+    - [store_language_nav, 200]
