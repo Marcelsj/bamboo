@@ -1,9 +1,10 @@
 admin:
     name: Administració
     dashboard:
-        single: Panell de contol
-        plural: Panells de control
-        title:  Panell de control
+        single: Tauler de contol
+        plural: Taulers de control
+        title:  Tauler de control
+        view_store: Veure la meva tenda
         chart:
             visitors:
                 title: Visites
@@ -37,6 +38,7 @@ admin:
     address:
         single: Adreça fiscal
         plural: Adreçes fiscals
+        saved:  Adreça guardada
         edit:
             billing_address: Adreça de facturació de la teva botiga
             description: "La direcció que ha de constar a les factures que la teva tenda emeti. En el cas de tenir una empresa aquesta serà la direcció fiscal d'aquesta. En cas contrari, segurament serà la teva direcció física."
@@ -47,7 +49,7 @@ admin:
                 title:       Nom del destinatari
                 placeholder: p.e. Joan
             recipient_surname:
-                title:       Apellido del destinatario
+                title:       Cognóm del destinatari
                 placeholder: p.e. Capdevila
             address:
                 title:       Adreça
@@ -116,7 +118,7 @@ admin:
                 title: Nom
                 placeholder: p.e. Joan
             lastname:
-                title: Apellido
+                title: Cognom
                 placeholder: p.e. Capdevila
             fullname:
                 title: Nom complet
@@ -140,7 +142,7 @@ admin:
     admin_user:
         single: Administrador
         plural: Administradors
-        list:   Llistat d'administradors
+        list:   Llista d'administradors
         edit:   Editar "%name%"
         new:    Crea un nou administrador
         saved:  Canvis guardats
@@ -159,228 +161,228 @@ admin:
                 description: Pots configurar els administradors com actius o inactius.
 
     customer:
-        single: Cliente
-        plural: Clientes
-        list:   Listado de clientes
+        single: Client
+        plural: Clients
+        list:   Llista de clients
         edit:   Editar "%name%"
-        new:    Crear un nuevo cliente
-        saved:  Cambios guardados
+        new:    Crear un nou client
+        saved:  Canvis guardats
         info:
-            password_changed: Contraseña guardada correctamente
+            password_changed: Contrasenya guardada correctament
         error:
-            password_change: Error guardando la contraseña
+            password_change: Hi ha hagut un error guardant la contrasenya
         field:
             username:
-                title: Nombre de usuario
+                title: Nom d'usuari
                 placeholder: p.e. john_doe
             identity_document:
-                title: Documento de identidad
+                title: Document d'identitat
                 placeholder: p.e. 12345678A
             phone:
-                title: Teléfono
+                title: Telèfon
                 placeholder: p.e. 555 55 55 55
             language:
-                title: Idioma preferido
+                title: Idioma preferit
             guest:
-                title: Invitado
+                title: Convidat
             newsletter:
-                title: Boletín de noticias
+                title: Butlletí de notícies
             order_count:
-                title: 'Nº Pedido'
+                title: 'Nº de comanda'
         section:
             login:
-                title: Detalles de sesión
-                description: Cada usuario debe tener un correo eletrónico único.
+                title: Dades de sessió
+                description: Cada usuari ha de tenir un correu electrónic únic.
             contact:
-                title: Detalles de contacto
-                description: Los detalles de contacto para este usuario.
+                title: Dades de contacte
+                description: Les dades de contacte per a aquest usuari.
             status:
-                title: 'Estado y configuración'
-                description: Configura el usuario y su estado.
+                title: 'Estat i configuració'
+                description: Configura l'usuari i el seu estat.
 
     attribute:
-        single: Atributo
-        plural: Atributos
+        single: Atribut
+        plural: Atributs
         edit:   Editar "%name%"
-        new:    Nuevo atributo
-        list:   Listado de atributos
+        new:    Nou atribut
+        list:   Llista d'atributs
         field:
             name:
                 placeholder: p.e. Color
-                title:       Nombre
-                values:      Valores
+                title:       Nom
+                values:      Valors
             enabled:
-                title:       Estado
+                title:       Estat
         section:
             basic:
-                title:       Detalles básicos
-                description: Define el nombre del atributo y sus valores (Separados por comas).
+                title:       Dades bàsiques
+                description: Defineix el nom de l'atribut i els seus valors (Separats per comes).
             visibility:
-                title:       Visibilidad
-                description: Configura este atributo como visible u oculto.
+                title:       Visibilitat
+                description: Configura aquest atribut com a visible o ocult.
 
     blog:
         single: Blog
         plural: Blogs
 
     blog_post:
-        single: Blog
-        plural: Blog
+        single: Entrada del Blog
+        plural: Entrades del Blog
         edit:   Editar "%name%"
-        new:    Crea un nuevo artículo
-        list:   Listado de artículos del blog
-        saved:  Artículo guardado
-        in_store: Ver en la tienda
-        show_metrics: Mostrar métricas
+        new:    Crea una nova entrada
+        list:   Llista d'entrades del blog
+        saved:  Entrada guardada
+        in_store: Veure a la tenda
+        show_metrics: Mostrar mètriques
         field:
             title:
-                title: Título
-                placeholder: p.e. Mi magnífico artículo
+                title: Títol
+                placeholder: p.e. Un títol genial
             path:
                 title: Ruta
-                placeholder: p.e. mi/magnifico/articulo
+                placeholder: p.e. una/magnifica/entrada
                 customize: Personalizar ruta
             link:
-                title: Enlace
+                title: Enllaç
             enabled:
-                title: Estado
+                title: Estat
             content:
-                title: Contenido
-                placeholder: p.e. Este magnífico artículo es exactamente lo que buscas.
+                title: Contingut
+                placeholder: p.e. Aquesta magnífica entrada es exactament el que estaves buscant.
             publication_date:
-                title: Fecha de publicación
+                title: Data de publicació
             metatitle:
-                placeholder: p.e. Mi magnífico articulo
+                placeholder: p.e. La meva magnífica entrada
             metadescription:
-                placeholder: p.e. Este magnífico artículo es exactamente lo que buscas.
+                placeholder: p.e. Aquesta magnífica entrada es exactament el que estaves buscant.
             metakeywords:
-                placeholder: 'p.e. blog,articulo,magnifico'
+                placeholder: 'p.e. blog,entrada,genial'
         section:
             basic:
-                title: Detalles básicos
-                description: Proporciona un título muy específico para tu artículo del blog que explique, ayude a vender y proporcione toda la información necesaria para tus clientes.
+                title: Detalls bàsics
+                description: Proporciona un títol molt específic per la teva entrada del blog que expliqui, ajudi a vendre i proporcioni tota l'informació necessaria per als teus clients.
             visibility:
-                title: Visibilidad
-                description: Configura este artículo como visible u oculto.
+                title: Visibilitat
+                description: Configura aquesta entrada com a visible o oculta.
 
     mailing:
-        single: Correo
-        plural: Correos
+        single: Correu
+        plural: Correus
         edit:   Editar "%title%"
-        new:    Crear nuevo correo
-        list:   Listado de correo
+        new:    Crear un nou correu
+        list:   Llista de correus
         field:
             title:
-                title: Título
-                placeholder: p.e. Mi magnífico correo
+                title: Títol
+                placeholder: p.e. El meu magnífic correu
             title:
-                title: Contenido
-                placeholder: p.e. Este magnífico correo es exactamente lo que buscabas.
+                title: Contingut
+                placeholder: p.e. Aquest magnífic correu es tot allò que buscaves.
         section:
             basic:
-                title: Contenido básico
-                description: Proporciona un título descriptivo para tu correo y el contenido a enviar.
+                title: Contingut bàsic
+                description: Proporciona un títol descriptiu per al teu correu i el contingut a enviar.
 
     carrier:
         single: Transportista
-        plural: Transportistas
-        saved:  Cambios guardados
+        plural: Transportistes
+        saved:  Canvis guardats
         edit:   Editar "%name%"
-        new:    Nuevo transportista
-        list:   Listado de transportistas
+        new:    Nou transportista
+        list:   Llista de transportistes
         error:
-            no_active_carrier: ¡Atención! No tienes ningún transportista activo
+            no_active_carrier: ¡Atenció! No tens cap transportista actiu
         field:
             name:
-                title: Nombre
+                title: Nom
                 placeholder: p.e. SuperTransportista
             description:
-                title: Descripción
-                placeholder: p.e. La mejor opción para transporte local
+                title: Descripció
+                placeholder: p.e. La millor opció per al transport local
             taxes:
-                title: Tasas
-                format: Tasa %value%%
+                title: Tases
+                format: Tases %value%%
             status:
-                title: Activo
+                title: Actiu
         info:
-            shipping_rates_before_saving: Podrás añadir costes de envio una vez guardes el transportista
+            shipping_rates_before_saving: Podràs afegir els despeses d'enviament un cop guardis el transportista
         action:
-            add_shipping_range: Añadir rango de envio
+            add_shipping_range: Afegir el rang d'enviament
         section:
             basic:
-                title: Detalles básicos
-                description: Proporciona el nombre del transportista y una descripcion interna si es necesario
+                title: Detalls bàsics
+                description: Proporciona el nom del transportista i una descropció interna si es necessari
             taxes:
                 title: Taxes
-                description: Las taxes que s'aplicaràn al transportista.
+                description: Les taxes que s'aplicaràn al transportista.
             shipping_rates:
-                title: Costes de envio
-                description: Añadir costes de envio.
+                title: Despeses d'enviament
+                description: Afegir despestes d'enviament
             visibility:
-                title: visibilidad
-                description: Configurar este transportista como activo o inactivo.
+                title: Visibilitat
+                description: Configurar aquest transportista com a actiu o inactiu.
 
     catalog:
-        single: Catálogo
-        plural: Catálogos
+        single: Catàleg
+        plural: Catàlegs
 
     coupon:
-        single: Cupón
-        plural: Cupones
+        single: Cupó
+        plural: Cupons
         edit:   Editar "%code%"
-        new:    Nuevo cupón
-        list:   Listado de cupones
+        new:    Nou cupó
+        list:   Llista de cupons
         field:
             code:
-                placeholder: p.e. MYCODIGO
-                title:        Código
+                placeholder: p.e. ELMEUCODI
+                title:        Codi
             count:
-                title: Límite de usos
+                title: Límit d'usos
             datetime:
-                title: 'Fecha y hora'
+                title: 'Data i hora'
             description:
-                placeholder: p.e. Código de 10% de descuento
-                title:       Descripción
+                placeholder: p.e. Códi de 10% de descompte
+                title:       Descripció
             discount:
-                title: "Porcentaje"
+                title: "Percentatge"
             enabled:
-                title: Estado
+                title: Estat
             enforcement:
-                title: Modo
+                title: Mode
                 options:
-                    manual: Aplicación manual
-                    automatic: Aplicación automática
+                    manual: Aplicació manual
+                    automatic: Aplicació automàtica
             minimum_purchase:
                 title: Compra mínima
             price:
-                title: Cantidad
+                title: Quantitat
             priority:
-                title: Prioridad
+                title: Prioritat
             rule:
                 title:       Regla
-                placeholder: Sin regla
+                placeholder: Sense regla
             status:
-                title: Estado
+                title: Estat
             type:
-                title: Tipo
+                title: Tipus
                 options:
-                    fixed:  Cantidad fija
-                    percent: Porcentaje
+                    fixed:  Cuantitat fixa
+                    percent: Percentatge
             used:
-                title: Usado
+                title: Usat
             valid_from:
-                title: Desde
+                title: Des de
             valid_to:
-                title: Hasta
+                title: Fins a
         section:
             basic:
-                title: Información básica
+                title: Informació bàsica
                 description:
-                    - 'Configura el nombre del código (El que los usuarios tienen que proporcionar en el carrito para activar el cupón).'
-                    - 'Configura también la descripción para identificar el cupón, el tipo y el modo en que será aplicado.'
+                    - 'Configura el nom del codi (El que els usuaris han de proporcionar en el carret per a activar el cupo).'
+                    - 'Configura també la descripció per a identificar el cupó, el tipus i la manera en que serà aplicat.'
             fixed_amount:
-                title:       Cantidad fija
-                description: Configura la cantidad fija que se descontará directamente al carrito.
+                title:       Quantitat fixa
+                description: Configura la cuantitat fixa que es descontarà directament al carret.
             percent_amount:
                 title:       Porcentaje
                 description: Configura el porcentaje de descuento directo en el carrito.
